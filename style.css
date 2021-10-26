@@ -27,6 +27,7 @@ p {
 .orange {
     background-color: var(--Bright-orange);
     color: #fff;
+    border-radius: 10px 10px 0 0;
 }
 
 .cyan {
@@ -37,9 +38,14 @@ p {
 .dark-cyan {
     background-color: var(--Very-dark-cyan);
     color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.container {
+    padding: 20px;
 }
 
 .card {
     padding: 30px;
-    
+
 }
