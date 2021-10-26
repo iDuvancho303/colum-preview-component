@@ -1,3 +1,9 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +18,28 @@ h3 {
     font-family: "Big Shoulders Display" , sans-serif;
     text-transform: uppercase;
     font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.orange {
+    background-color: var(--Bright-orange);
+    color: #fff;
+}
+
+.cyan {
+    background-color: var(--Dark-cyan);
+    color: #fff;
+}
+
+.dark-cyan {
+    background-color: var(--Very-dark-cyan);
+    color: #fff;
+}
+
+.card {
+    padding: 30px;
+    
 }
