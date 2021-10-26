@@ -24,6 +24,14 @@ p {
     font-size: 15px;
 }
 
+.btn {
+  background-color: #fff;  
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 .orange {
     background-color: var(--Bright-orange);
     color: #fff;
